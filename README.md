@@ -1,2 +1,3 @@
-# Meme-Generator
-A meme generator crafted using JavaScript and HTML5 Canvas (MVC)
+# QuickFill
+
+The app autofills user location details using entered zip-codes
