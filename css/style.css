@@ -1,0 +1,81 @@
+*,*::after,*::before{
+    box-sizing: border-box;
+}
+
+body{
+    padding: 2em calc(50% - 46vw);
+}
+
+.suggestions{
+    height: max-content;
+    background-color: #fafbfc;
+    margin: .5em auto;
+    padding: 20px 10px;
+    border-radius: 5px;
+}
+
+.choice_chips{
+    display: flex;
+    width: 80%;
+    max-width: 500px;
+    flex-flow: row wrap;
+}
+
+.choice_chip{
+    cursor: pointer;
+    font-family: 'Calibri', sans-serif;
+    width: max-content;
+    white-space: nowrap;
+    margin: 5px;
+    background: #0c46e224;
+    padding: 6px 12px;
+    border-radius: 40px;
+    font-size: 14px;
+    color: #0c46e2;
+    font-weight: 600;
+}
+
+.choice_chip.selected{
+    color: white;
+    background-color: #0c46e2;
+}
+
+.invalid_pin{
+    background-color: #0c46e225;
+    color: #0c46e2;
+    font-weight: 700;
+    border-radius: 2px;
+    padding: 10px;
+    width: 100%;
+}
+
+.unpad{
+    padding: 0;
+}
+
+.form__block + .form__block{
+    margin-top: 15px;
+}
+
+.form__block{
+    display: flex;
+}
+
+.user_info label{
+    display: inline-block;
+    width: 80px;
+}
+
+.user_info .form__input{
+    display: inline-block;
+}
+
+.user_info .form__block{
+    width: 100%;
+    max-width: 600px;
+}
+
+.user_pin_code label{
+    display: inline-block;
+    margin-right: .8em;
+}
